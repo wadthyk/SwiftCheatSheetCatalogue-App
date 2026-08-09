@@ -11,6 +11,9 @@
 		F8F158683028A85D00F721BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158673028A85D00F721BF /* ContentView.swift */; };
 		F8F1586A3028A85D00F721BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F158693028A85D00F721BF /* Assets.xcassets */; };
 		F8F158923028C37F00F721BF /* CheatEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158913028C10400F721BF /* CheatEntry.swift */; };
+		F8F158963028C82500F721BF /* EntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158953028C81E00F721BF /* EntryListView.swift */; };
+		F8F158973028CA2F00F721BF /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158933028C4F000F721BF /* SeedData.swift */; };
+		F8F1589A3028CB6700F721BF /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158993028CB5E00F721BF /* EntryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		F8F158693028A85D00F721BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F158913028C10400F721BF /* CheatEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatEntry.swift; sourceTree = "<group>"; };
 		F8F158933028C4F000F721BF /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		F8F158953028C81E00F721BF /* EntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListView.swift; sourceTree = "<group>"; };
+		F8F158993028CB5E00F721BF /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +41,6 @@
 		F8F158593028A85D00F721BF = {
 			isa = PBXGroup;
 			children = (
-				F8F158673028A85D00F721BF /* ContentView.swift */,
 				F8F158693028A85D00F721BF /* Assets.xcassets */,
 				F8F1588C3028B89500F721BF /* Views */,
 				F8F1588E3028B89500F721BF /* Utilities */,
@@ -67,6 +71,9 @@
 		F8F1588C3028B89500F721BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F8F158983028CB5100F721BF /* EntryDetail */,
+				F8F158943028C81000F721BF /* EntryList */,
+				F8F158673028A85D00F721BF /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +106,22 @@
 				F8F158933028C4F000F721BF /* SeedData.swift */,
 			);
 			path = SeedData;
+			sourceTree = "<group>";
+		};
+		F8F158943028C81000F721BF /* EntryList */ = {
+			isa = PBXGroup;
+			children = (
+				F8F158953028C81E00F721BF /* EntryListView.swift */,
+			);
+			path = EntryList;
+			sourceTree = "<group>";
+		};
+		F8F158983028CB5100F721BF /* EntryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F8F158993028CB5E00F721BF /* EntryDetailView.swift */,
+			);
+			path = EntryDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F1589A3028CB6700F721BF /* EntryDetailView.swift in Sources */,
 				F8F158683028A85D00F721BF /* ContentView.swift in Sources */,
 				F8F158663028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift in Sources */,
+				F8F158973028CA2F00F721BF /* SeedData.swift in Sources */,
 				F8F158923028C37F00F721BF /* CheatEntry.swift in Sources */,
+				F8F158963028C82500F721BF /* EntryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
