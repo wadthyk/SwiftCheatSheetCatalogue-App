@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Swift_Cheat_Sheet_CatalogueApp: App {
@@ -13,5 +14,6 @@ struct Swift_Cheat_Sheet_CatalogueApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: CheatEntry.self) // creates & attaches the SwiftData store
     }
 }
