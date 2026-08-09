@@ -9,7 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        EntryListView()
+        TabView {
+            Tab("Catalogue", systemImage: "list.bullet.rectangle") {
+                EntryListView()
+            }
+
+            Tab("Random", systemImage: "shuffle") {
+                RandomEntryView()
+            }
+
+            Tab("About", systemImage: "person.circle") {
+                AboutView()
+            }
+
+            Tab(role: .search) {
+                SearchPlaceholderView()
+            } label: {
+                Label("Search", systemImage: "magnifyingglass")
+            }
+        }
     }
 }
 
