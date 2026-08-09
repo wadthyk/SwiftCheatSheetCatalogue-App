@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F8F158663028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158653028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift */; };
+		F8F158683028A85D00F721BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158673028A85D00F721BF /* ContentView.swift */; };
+		F8F1586A3028A85D00F721BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F158693028A85D00F721BF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F8F158623028A85D00F721BF /* Swift Cheat Sheet Catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Cheat Sheet Catalogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F158653028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Cheat_Sheet_CatalogueApp.swift; sourceTree = "<group>"; };
+		F8F158673028A85D00F721BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8F158693028A85D00F721BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F8F158643028A85D00F721BF /* Swift Cheat Sheet Catalogue */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Swift Cheat Sheet Catalogue";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8F1585F3028A85D00F721BF /* Frameworks */ = {
@@ -32,7 +33,15 @@
 		F8F158593028A85D00F721BF = {
 			isa = PBXGroup;
 			children = (
-				F8F158643028A85D00F721BF /* Swift Cheat Sheet Catalogue */,
+				F8F158653028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift */,
+				F8F158673028A85D00F721BF /* ContentView.swift */,
+				F8F158693028A85D00F721BF /* Assets.xcassets */,
+				F8F1588C3028B89500F721BF /* Views */,
+				F8F1588E3028B89500F721BF /* Utilities */,
+				F8F158903028B89500F721BF /* SeedData */,
+				F8F1588F3028B89500F721BF /* Resources */,
+				F8F1588B3028B89500F721BF /* Models */,
+				F8F1588D3028B89500F721BF /* App */,
 				F8F158633028A85D00F721BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,48 @@
 				F8F158623028A85D00F721BF /* Swift Cheat Sheet Catalogue.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F1588B3028B89500F721BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8F1588C3028B89500F721BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F1588D3028B89500F721BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8F1588E3028B89500F721BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F8F1588F3028B89500F721BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8F158903028B89500F721BF /* SeedData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SeedData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +110,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F8F158643028A85D00F721BF /* Swift Cheat Sheet Catalogue */,
 			);
 			name = "Swift Cheat Sheet Catalogue";
 			packageProductDependencies = (
@@ -109,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F1586A3028A85D00F721BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F158683028A85D00F721BF /* ContentView.swift in Sources */,
+				F8F158663028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
