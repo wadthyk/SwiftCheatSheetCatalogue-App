@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8C2B9D430371BE300977F19 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B9D330371BD900977F19 /* SettingsView.swift */; };
 		F8F158663028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158653028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift */; };
 		F8F158683028A85D00F721BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F158673028A85D00F721BF /* ContentView.swift */; };
 		F8F1586A3028A85D00F721BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F158693028A85D00F721BF /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8C2B9D330371BD900977F19 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F8F158623028A85D00F721BF /* Swift Cheat Sheet Catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Cheat Sheet Catalogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F158653028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Cheat_Sheet_CatalogueApp.swift; sourceTree = "<group>"; };
 		F8F158673028A85D00F721BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8C2B9D230371BCF00977F19 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F8C2B9D330371BD900977F19 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F8F158593028A85D00F721BF = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +87,13 @@
 		F8F1588C3028B89500F721BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F8F158673028A85D00F721BF /* ContentView.swift */,
 				F8F158A13028D6A500F721BF /* Search */,
 				F8F1589C3028D5CD00F721BF /* About */,
 				F8F1589B3028D5C200F721BF /* Random */,
 				F8F158983028CB5100F721BF /* EntryDetail */,
 				F8F158943028C81000F721BF /* EntryList */,
-				F8F158673028A85D00F721BF /* ContentView.swift */,
+				F8C2B9D230371BCF00977F19 /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 				F8F158683028A85D00F721BF /* ContentView.swift in Sources */,
 				F8F158663028A85D00F721BF /* Swift_Cheat_Sheet_CatalogueApp.swift in Sources */,
 				F8F158973028CA2F00F721BF /* SeedData.swift in Sources */,
+				F8C2B9D430371BE300977F19 /* SettingsView.swift in Sources */,
 				F8F1589E3028D5E100F721BF /* RandomEntryView.swift in Sources */,
 				F8F158A33028D6C200F721BF /* SearchPlaceholderView.swift in Sources */,
 				F8F158923028C37F00F721BF /* CheatEntry.swift in Sources */,
@@ -375,6 +387,7 @@
 				DEVELOPMENT_TEAM = 2M8JWCUHWG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift CSC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,6 +420,7 @@
 				DEVELOPMENT_TEAM = 2M8JWCUHWG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift CSC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

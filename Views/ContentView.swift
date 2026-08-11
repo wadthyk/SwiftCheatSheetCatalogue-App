@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 struct ContentView: View {
     var body: some View {
@@ -22,6 +24,10 @@ struct ContentView: View {
                 AboutView()
             }
 
+            Tab("Settings", systemImage: "gearshape") {
+                SettingsView()
+            }
+
             Tab(role: .search) {
                 SearchPlaceholderView()
             } label: {
@@ -31,8 +37,9 @@ struct ContentView: View {
     }
 }
 
-/*
+
 #Preview {
     ContentView()
+    .modelContainer(for: CheatEntry.self, inMemory: true)
 }
-*/
+
